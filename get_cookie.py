@@ -4,6 +4,7 @@ import time
 import json
 from lxml import etree
 #返回一个ip和对应的cookie，cookie以字符串形式返回。ip需要经过测试
+#2019.5.19加个备注
 def get_cookie():
     mark=0
     while mark==0:
